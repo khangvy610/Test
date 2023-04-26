@@ -1,0 +1,87 @@
+.app {
+    .navbar {
+        display: flex;
+        justify-content: center;
+        .navbarcontent {
+            width: 60%;
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 0;
+        }
+    }
+    
+    .jokebanner {
+        text-align: center;
+        color: white;
+        background-color: rgb(106, 184, 106);
+        padding: 30px 0;
+        h1 {
+            font-size: 20px;
+        }
+        p {
+            font-size: 10px;
+        }
+    }
+
+    .joke {
+        display: flex;
+        justify-content: center;
+        .jokecontent {
+            width: 60%;
+            font-size: 12px;
+            color: rgb(131, 130, 130);
+            padding: 20px 0;
+            p {
+                margin-bottom: 30px;
+            }
+            hr {
+                border-top: 0.1px solid lightgray;
+            }
+        }
+    }
+
+    .buttonzone {
+        display: flex;
+        justify-content: center;
+        .funny {
+            border: none;
+            padding: 6px 40px;
+            color: white;
+            background-color: rgb(106, 106, 238);
+            font-size: 12px;
+            margin-right: 20px;
+            cursor: pointer;
+        }
+        .funny:hover{
+            box-shadow: 0 0 10px 0px rgb(106, 106, 238);
+        }
+
+        .notfunny {
+            border: none;
+            padding: 6px 40px;
+            color: white;
+            background-color: rgb(106, 184, 106);
+            font-size: 12px;
+            cursor: pointer;
+        }
+        .notfunny:hover{
+            box-shadow: 0 0 10px 0px rgb(106, 184, 106);
+        }
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+        border-top: 0.5px solid lightgray;
+        border-bottom: 0.5px solid lightgray;
+        margin-top: 50px;
+        .footercontent {
+            width: 60%;
+            color: rgb(131, 130, 130);
+            font-size: 9px;
+            padding: 8px 0;
+            text-align: center;
+            line-height: 14px;
+        }
+    }
+}
